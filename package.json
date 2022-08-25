@@ -14,6 +14,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
+    "test:watch": "tsdx test --watch",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
@@ -27,6 +28,11 @@
       "pre-commit": "tsdx lint"
     }
   },
+  "repository": {
+    "url": "https://github.com/kevinShogun/kg-product-card",
+    "type": "git"
+  },
+  "homepage": "https://kevin-yamil-garcia-lopez.netlify.app",
   "prettier": {
     "printWidth": 80,
     "semi": true,
@@ -52,12 +58,32 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "husky": "^8.0.1",
+    "identity-obj-proxy": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^8.0.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
-    "typescript": "^3.9.10"
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^3.9.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^28.1.3",
+    "jest": "^25.5.4"
+  },
+  "keywords": [
+    "product",
+    "card",
+    "kevin",
+    "garcia"
+  ],
+  "dependencies": {},
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   }
 }

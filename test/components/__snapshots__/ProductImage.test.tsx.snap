@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage  should successfully display component, with custom image 1`] = `
+<img
+  alt="product img"
+  className="productImg custom-class"
+  src="https://cdn.thewirecutter.com/wp-content/media/2021/12/favoritemugs-2048px-ikea.jpg?auto=webp&quality=75&width=980&dpr=2"
+/>
+`;
+
+exports[`ProductImage  should successfully display component, with custom image by ProdcutCard 1`] = `
+<div
+  className="productCard  undefined"
+>
+  <img
+    alt="product img"
+    className="productImg undefined"
+    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/coffee-mugs-1640187565.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*"
+  />
+</div>
+`;

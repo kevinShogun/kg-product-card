@@ -1,5 +1,5 @@
 
-# DO-Product-Card
+# KG-Product-Card
 
 Este es un paquete de pruebas de despliegue en NPM
 
