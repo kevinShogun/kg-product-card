@@ -6,7 +6,7 @@ import { ProductCard, ProductImage, ProductTitle, ProductsButtons } from '../.';
 const p = {
 	id: "1",
 	title: "Coffee Mug",
-	// img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/coffee-mugs-1640187565.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*",
+	img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/coffee-mugs-1640187565.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*",
 };
 
 
@@ -20,7 +20,7 @@ const App = () => {
         }}
         initialValues={{
           count: 5,
-          // maxCount: 10,
+          // opcional -> maxCount: 10,
         }}
       >
         {({ reset, increaseBy, isMaxCountReached, count }) => (
